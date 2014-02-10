@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Kelson Sans LightBG';
+    src: url('fonts/kelson_sans_light_bg-webfont.eot');
+    src: url('fonts/kelson_sans_light_bg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kelson_sans_light_bg-webfont.woff') format('woff'),
+         url('fonts/kelson_sans_light_bg-webfont.ttf') format('truetype'),
+         url('fonts/kelson_sans_light_bg-webfont.svg#kelson_sans_bglight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
