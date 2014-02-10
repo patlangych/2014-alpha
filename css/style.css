@@ -1,0 +1,90 @@
+/* ==========================================================================
+	#Reset
+========================================================================== */
+* { padding: 0; margin: 0; outline: 0; }
+
+/* ==========================================================================
+	#Base
+========================================================================== */
+html, 
+body { height: 100%; }
+
+html { overflow-y: scroll; }
+
+body,
+input,
+select,
+textarea { font-family: "Arial", sans-serif; font-size: 12px; color: #000; line-height: 1.2; }
+
+body { min-width: 1000px; background: #fff;  }
+
+a { cursor: pointer; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img { border: 0; vertical-align: middle; }
+
+strong {  }
+
+ol, ul { list-style-position: inside; }
+
+textarea { resize: none; overflow: auto; }
+
+table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+
+td,
+th { border: 0px solid #000; vertical-align: bottom; }
+
+/* ==========================================================================
+	#Helpers
+========================================================================== */
+.alignleft { float: left; }
+.alignright { float: right; }
+
+.clearfix:before,
+.clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/* ==========================================================================
+	#Containers
+========================================================================== */
+.wrapper { min-height: 100%; }
+.shell { width: 980px; margin: 0 auto; }
+
+/* ==========================================================================
+	#Header
+========================================================================== */
+.header { height: 195px; background: #979797; }
+a.logo {  }
+
+/* ==========================================================================
+	#Main
+========================================================================== */
+.main {  }
+.content {  }
+
+/* ==========================================================================
+	#Nav
+========================================================================== */
+.nav {  }
+.nav ul,
+.nav li,
+.nav a {  }
+.nav li {  }
+.nav a {  }
+.nav a:hover {  }
+.nav .current a {  } 
+
+
+/* ==========================================================================
+	#Article
+========================================================================== */
+.article {  }
+.article img.alignleft {  }
+.article img.alignright {  }
+.drop-cap {  }
+
+/* ==========================================================================
+	#Footer
+========================================================================== */
+.footer { height: 195px; background: #979797; }
