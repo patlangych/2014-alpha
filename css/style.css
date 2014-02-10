@@ -1,0 +1,41 @@
+/* ==========================================================================
+	#Reset
+========================================================================== */
+* { padding: 0; margin: 0; outline: 0; }
+
+/* ==========================================================================
+	#Basic
+========================================================================== */
+html,
+body { height: 100%; }
+
+html { overflow: hidden; }
+body { min-width: 990px; background: #283852; }
+
+a { text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+
+img { border: 0; vertical-align: middle; }
+
+body,
+input,
+select,
+textarea { font-family: 'Open Sans', sans-serif; font-size: 12px; line-height: 1.2; color: #6f8ba9; }
+textarea { overflow: auto; resize: none; }
+
+/* ==========================================================================
+	#Helpers
+========================================================================== */
+.alignleft { float: left; }
+.alignright { float: right; }
+
+.clearfix:before,
+.clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/* ==========================================================================
+	#Containers
+========================================================================== */
+.wrapper { min-height: 100%; }
+.shell { width: 980px; margin: 0 auto; }
