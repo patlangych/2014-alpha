@@ -14,21 +14,107 @@
 <body>
 <div class="wrapper">
 	<div class="shell">
-		<div class="header">
-			
-		</div><!-- /.header -->
-
-		<div class="main">
-			<div class="content">
-				<div class="article">
-					
-				</div><!-- /.article -->
-			</div><!-- /.content -->
-		</div><!-- /.main -->
-	
-		<div class="footer">
-			
-		</div><!-- /.footer -->
+		<div class="container">
+			<div class="header">
+				<h1>Taxi Order app</h1>
+			</div><!-- /.header -->
+		
+			<div class="main">
+				<div class="content">
+					<div class="article">
+						<div class="form">
+							<form action="">
+								<div class="form-body">
+									<div class="form-cols">
+										<div class="form-col form-col-size1">
+											<div class="form-row">
+												<label for="directions-from" class="form-label">A:</label><!-- /.form-label -->
+												
+												<div class="form-controls">
+													<input type="text" id="directions-from" name="directions-from" class="field" />
+												</div><!-- /.form-controls -->
+											</div><!-- /.form-row -->
+										</div><!-- /.form-col form-col-size1 -->
+		
+										<div class="form-col form-col-size2">
+											<div class="form-actions">
+												<button class="btn btn-small" id="swap-button"><i class="ico-swap"></i></button>
+											</div><!-- /.form-actions -->
+										</div><!-- /.form-col form-col-size2 -->
+		
+										<div class="form-col form-col-size1">
+											<div class="form-row">
+												<label for="directions-to" class="form-label">B:</label><!-- /.form-label -->
+												
+												<div class="form-controls">
+													<input type="text" id="directions-to" name="directions-to" class="field" />
+												</div><!-- /.form-controls -->
+											</div><!-- /.form-row -->
+										</div><!-- /.form-col form-col-size1 -->
+										
+										<div class="form-col form-col-size3">
+											<div class="form-actions">
+												<button type="button" class="btn btn-small btn-rounded deactivated" id="get-my-location"><i class="ico-land-marker"></i> <span>Вземи местоположенеито ми</span> </button>
+											</div><!-- /.form-actions -->
+										</div><!-- /.form-col form-col-size3 -->
+										
+										<div class="form-col form-col-size4">
+											<div class="form-actions">
+												<input type="button" class="btn" id="render-route" value="виж маршрут" />
+											</div><!-- /.form-actions -->
+										</div><!-- /.form-col form-col-size4 -->
+									</div><!-- /.form-cols -->
+		
+									<div class="form-row">
+		
+									</div><!-- /.form-row -->
+		
+								</div><!-- /.form-body -->
+									
+								<div class="form-foot">
+									<div class="form-cols">
+										<div class="form-col form-col-1of3">
+											<div class="form-row">
+												<label for="taxi-distance" class="form-label">Разстояние:</label><!-- /.form-label -->
+												
+												<div class="form-controls">
+													<input type="text" id="taxi-distance" name="taxi-distance" class="field field-small" value="-" />
+												</div><!-- /.form-controls -->
+											</div><!-- /.form-row -->
+		
+											<div class="form-row">
+												<label for="taxi-cost" class="form-label">Приблизителна цена:</label><!-- /.form-label -->
+												
+												<div class="form-controls">
+													<input type="text" id="taxi-cost" name="taxi-cost" class="field field-small" value="-" />
+												</div><!-- /.form-controls -->
+											</div><!-- /.form-row -->
+										</div><!-- /.form-col form-col-1of3 -->
+										
+										<div class="form-col form-col-1of3">
+											<div class="form-actions">
+												<button type="submit" class="btn btn-large" id="taxi-order"> поръчай такси <i class="ico-status"></i></button>
+											</div><!-- /.form-actions -->
+										</div><!-- /.form-col form-col-1of3 -->
+										
+										<div class="form-col form-col-1of3">
+											<div class="clock" id="clock">
+												<strong>0</strong><small>мин</small>
+												<span>пътуване</span>
+											</div><!-- /.clock -->
+										</div><!-- /.form-col form-col-1of3 -->
+									</div><!-- /.form-cols -->
+								</div><!-- /.form-foot -->
+							</form>
+						</div><!-- /.form -->
+					</div><!-- /.article -->
+				</div><!-- /.content -->
+			</div><!-- /.main -->
+		
+			<div class="footer">
+				<p class="copyright">&copy; 2014. Всички права запазени.</p><!-- /.copyright -->
+			</div><!-- /.footer -->
+		</div><!-- /.container -->
 	</div><!-- /.shell -->
 </div><!-- /.wrapper -->	
 </body>
